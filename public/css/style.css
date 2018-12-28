@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    height: 500px;
+    width: 300px;
+    background: pink;
+}
+
+footer {
+    background: gold;
+    width: 200px;
+    height: 200px;
+}
