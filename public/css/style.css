@@ -2,16 +2,33 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
     height: 500px;
     width: 300px;
     background: pink;
+    display: flex;
+    flex-direction: column;
 }
 
+/* lcx 尾部 */
 footer {
     background: gold;
     width: 200px;
     height: 200px;
+}
+
+/* lxq 头部 */
+header{
+    width: 100%;
+    height: 44px;
+    background: blueviolet;
+    display: flex;
 }
